@@ -1,3 +1,5 @@
+package _011;
+
 import static java.lang.Math.abs;
 
 public class Power {

@@ -1,3 +1,5 @@
+package _010;
+
 import java.nio.ByteBuffer;
 
 public class NumberOf1 {

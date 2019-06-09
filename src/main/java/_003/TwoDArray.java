@@ -1,3 +1,5 @@
+package _003;
+
 import org.apache.commons.lang3.StringUtils;
 
 import static java.lang.Math.abs;

@@ -1,0 +1,5 @@
+.idea
+/**/target
+/**/*.exe
+/**/*.iml
+/**/*.exe.stackdump

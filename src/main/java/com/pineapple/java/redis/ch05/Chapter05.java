@@ -1,7 +1,7 @@
 package com.pineapple.java.redis.ch05;
 
 import com.pineapple.java.redis.ch05.stat.Statistics;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 import java.text.Collator;
 import java.text.SimpleDateFormat;

@@ -1,7 +1,7 @@
 package com.pineapple.java.redis.ch02;
 
 import com.pineapple.java.redis.ch02.thread.CleanFullSessionsThread;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 import java.util.Map;
 import java.util.UUID;

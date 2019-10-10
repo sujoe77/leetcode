@@ -1,19 +1,22 @@
 package com.pineapple.java.redis.ch05;
 
 import com.google.gson.Gson;
+import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import org.apache.commons.csv.CSVRecord;
+import redis.clients.jedis.Jedis;
 
 import java.io.File;
 import java.io.FileReader;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 
 /**
  * use zset to save cityId and score
- *
+ * <p>
  * use hash to save cityId and city details as json
- *
+ * <p>
  * user ip get score, use score to get cityId, use cityId get json
  */
 public class IPTable {
@@ -86,11 +89,12 @@ public class IPTable {
         FileReader reader = null;
         try {
             reader = new FileReader(file);
-            CSVParser parser = new CSVParser(reader);
+            CSVParser parser = new CSVParser(reader, CSVFormat.DEFAULT);
             int count = 0;
-            String[] line = null;
-            while ((line = parser.getLine()) != null) {
-                String startIp = line.length > 1 ? line[0] : "";
+//            String[] line = null;
+            List<CSVRecord> records = parser.getRecords();
+            for (CSVRecord record : records) {
+                String startIp = record.size() > 1 ? record.get(0) : "";
                 if (startIp.toLowerCase().indexOf('i') != -1) {
                     continue;
                 }
@@ -105,7 +109,7 @@ public class IPTable {
                     }
                 }
 
-                String cityId = line[2] + '_' + count;
+                String cityId = record.get(2) + '_' + count;
                 conn.zadd("ip2cityid:", score, cityId);
                 count++;
             }
@@ -125,16 +129,15 @@ public class IPTable {
         FileReader reader = null;
         try {
             reader = new FileReader(file);
-            CSVParser parser = new CSVParser(reader);
-            String[] line = null;
-            while ((line = parser.getLine()) != null) {
-                if (line.length < 4 || !Character.isDigit(line[0].charAt(0))) {
+            CSVParser parser = new CSVParser(reader, CSVFormat.DEFAULT);
+            for (CSVRecord record : parser.getRecords()) {
+                if (record.size() < 4 || !Character.isDigit(record.get(0).charAt(0))) {
                     continue;
                 }
-                String cityId = line[0];
-                String country = line[1];
-                String region = line[2];
-                String city = line[3];
+                String cityId = record.get(0);
+                String country = record.get(1);
+                String region = record.get(2);
+                String city = record.get(3);
                 String json = gson.toJson(new String[]{city, region, country});
                 conn.hset("cityid2city:", cityId, json);
             }

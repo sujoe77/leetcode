@@ -2,7 +2,7 @@ package com.pineapple.java.redis.ch05;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 import java.util.HashMap;
 import java.util.Map;

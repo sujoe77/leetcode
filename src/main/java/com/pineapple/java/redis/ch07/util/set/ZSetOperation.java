@@ -1,7 +1,7 @@
 package com.pineapple.java.redis.ch07.util.set;
 
-import com.pineapple.java.redis.clients.jedis.Transaction;
-import com.pineapple.java.redis.clients.jedis.ZParams;
+import redis.clients.jedis.Transaction;
+import redis.clients.jedis.ZParams;
 
 import java.util.UUID;
 

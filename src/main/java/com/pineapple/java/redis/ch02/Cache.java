@@ -1,8 +1,8 @@
 package com.pineapple.java.redis.ch02;
 
 import com.pineapple.java.redis.ch02.thread.CacheRowsThread;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Tuple;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Tuple;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -1,6 +1,6 @@
 package com.pineapple.java.redis.ch02.thread;
 
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 import java.util.ArrayList;
 import java.util.Set;

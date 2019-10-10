@@ -1,9 +1,9 @@
 package com.pineapple.java.redis.ch07;
 
 import com.pineapple.java.redis.ch07.util.set.ZSetOperation;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Transaction;
-import com.pineapple.java.redis.clients.jedis.ZParams;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
+import redis.clients.jedis.ZParams;
 
 import java.util.*;
 

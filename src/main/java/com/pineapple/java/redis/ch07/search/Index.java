@@ -2,8 +2,8 @@ package com.pineapple.java.redis.ch07.search;
 
 import com.pineapple.java.redis.ch07.Chapter07;
 import com.pineapple.java.redis.ch07.util.StringUtil;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Transaction;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
 
 import java.util.Arrays;
 import java.util.HashSet;

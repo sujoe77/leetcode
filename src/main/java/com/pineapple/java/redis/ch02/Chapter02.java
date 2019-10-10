@@ -1,6 +1,7 @@
 package com.pineapple.java.redis.ch02;
 
-import com.pineapple.java.redis.clients.jedis.Jedis;
+
+import redis.clients.jedis.Jedis;
 
 public class Chapter02 {
     public static final void main(String[] args) throws InterruptedException {

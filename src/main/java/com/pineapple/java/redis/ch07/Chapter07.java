@@ -3,7 +3,7 @@ package com.pineapple.java.redis.ch07;
 import com.pineapple.java.redis.ch07.search.Index;
 import com.pineapple.java.redis.ch07.util.StringUtil;
 import com.pineapple.java.redis.ch07.util.set.SetOperation;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 public class Chapter07 {
     public static String CONTENT = "this is some random content, look at how it is indexed.";

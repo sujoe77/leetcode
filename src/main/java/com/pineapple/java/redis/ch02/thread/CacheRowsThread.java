@@ -2,8 +2,8 @@ package com.pineapple.java.redis.ch02.thread;
 
 import com.pineapple.java.redis.ch02.Inventory;
 import com.google.gson.Gson;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Tuple;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Tuple;
 
 import java.util.Set;
 

@@ -1,9 +1,9 @@
 package com.pineapple.java.redis;
 
 import org.javatuples.Pair;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Pipeline;
-import com.pineapple.java.redis.clients.jedis.ZParams;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Pipeline;
+import redis.clients.jedis.ZParams;
 
 import java.io.IOException;
 import java.io.InputStream;

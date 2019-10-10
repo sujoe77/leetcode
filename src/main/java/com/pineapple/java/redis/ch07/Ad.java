@@ -5,10 +5,10 @@ import com.pineapple.java.redis.ch07.util.set.SetOperation;
 import com.pineapple.java.redis.ch07.util.StringUtil;
 import com.pineapple.java.redis.ch07.util.set.ZSetOperation;
 import org.javatuples.Pair;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Transaction;
-import com.pineapple.java.redis.clients.jedis.Tuple;
-import com.pineapple.java.redis.clients.jedis.ZParams;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
+import redis.clients.jedis.Tuple;
+import redis.clients.jedis.ZParams;
 
 import java.util.*;
 
@@ -85,8 +85,7 @@ public class Ad {
 
         String matchedAds = matchLocation(trans, locations);
 
-        String baseEcpm = ZSetOperation.zintersect(
-                trans, 30, new ZParams().weights(0, 1), matchedAds, "ad:value:");
+        String baseEcpm = ZSetOperation.zintersect(trans, 30, new ZParams().weights(0, 1), matchedAds, "ad:value:");
 
         Pair<Set<String>, String> result = finishScoring(trans, matchedAds, baseEcpm, content);
 

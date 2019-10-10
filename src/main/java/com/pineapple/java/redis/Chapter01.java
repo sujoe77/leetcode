@@ -1,8 +1,8 @@
 package com.pineapple.java.redis;
 
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.ZParams;
-import com.pineapple.java.redis.clients.jedis.JedisShardInfo;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisShardInfo;
+import redis.clients.jedis.ZParams;
 
 import java.util.*;
 

@@ -1,9 +1,10 @@
 package com.pineapple.java.redis.ch05;
 
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Pipeline;
-import com.pineapple.java.redis.clients.jedis.Transaction;
-import com.pineapple.java.redis.clients.jedis.Tuple;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Pipeline;
+import redis.clients.jedis.Transaction;
+import redis.clients.jedis.Tuple;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

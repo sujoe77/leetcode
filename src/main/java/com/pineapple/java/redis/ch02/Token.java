@@ -1,7 +1,7 @@
 package com.pineapple.java.redis.ch02;
 
 import com.pineapple.java.redis.ch02.thread.CleanSessionsThread;
-import com.pineapple.java.redis.clients.jedis.Jedis;
+import redis.clients.jedis.Jedis;
 
 public class Token {
 

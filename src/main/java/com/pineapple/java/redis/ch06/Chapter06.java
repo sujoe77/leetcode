@@ -2,10 +2,10 @@ package com.pineapple.java.redis.ch06;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.pineapple.java.redis.clients.jedis.Jedis;
-import com.pineapple.java.redis.clients.jedis.Transaction;
-import com.pineapple.java.redis.clients.jedis.Tuple;
-import com.pineapple.java.redis.clients.jedis.ZParams;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
+import redis.clients.jedis.Tuple;
+import redis.clients.jedis.ZParams;
 
 import java.io.*;
 import java.util.*;
@@ -578,7 +578,7 @@ public class Chapter06 {
     public List<ChatMessages> fetchPendingMessages(Jedis conn, String recipient) {
         Set<Tuple> seenSet = conn.zrangeWithScores("seen:" + recipient, 0, -1);
         List<Tuple> seenList = new ArrayList<Tuple>(seenSet);
-x
+
         Transaction trans = conn.multi();
         for (Tuple tuple : seenList) {
             String chatId = tuple.getElement();

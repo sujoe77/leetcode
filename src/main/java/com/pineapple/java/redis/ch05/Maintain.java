@@ -1,6 +1,7 @@
 package com.pineapple.java.redis.ch05;
 
-import com.pineapple.java.redis.clients.jedis.Jedis;
+
+import redis.clients.jedis.Jedis;
 
 /**
  * use string to save a simple config, yes / no

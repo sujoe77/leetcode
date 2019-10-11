@@ -185,6 +185,7 @@ public class User {
         Set<Tuple> statuses = (Set<Tuple>) response.get(response.size() - 1);
 
         trans = conn.multi();
+        //save number of following and followers
         trans.hset("user:" + uid, "following", String.valueOf(following));
         trans.hset("user:" + otherUid, "followers", String.valueOf(followers));
         if (statuses.size() > 0) {

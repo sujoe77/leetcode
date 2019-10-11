@@ -91,6 +91,16 @@ public class Status {
         return getStatusMessages(conn, uid, 1, 30);
     }
 
+    /**
+     * Zet save user's status id, hash set save status content
+     * get status ids from zset, and get contents from hash
+     *
+     * @param conn
+     * @param uid
+     * @param page
+     * @param count
+     * @return
+     */
     @SuppressWarnings("unchecked")
     public List<Map<String, String>> getStatusMessages(Jedis conn, long uid, int page, int count) {
         Set<String> statusIds = conn.zrevrange("home:" + uid, (page - 1) * count, page * count - 1);
@@ -132,7 +142,7 @@ public class Status {
         return id;
     }
 
-    public void syndicateStatus(Jedis conn, long uid, long postId, long postTime, double start, User user) {
+    public void syndicateStatus(Jedis conn, long uid, long statusId, long postTime, double start, User user) {
         Set<Tuple> followers = conn.zrangeByScoreWithScores(
                 "followers:" + uid,
                 String.valueOf(start), "inf",
@@ -142,17 +152,16 @@ public class Status {
         for (Tuple tuple : followers) {
             String follower = tuple.getElement();
             start = tuple.getScore();
-            trans.zadd("home:" + follower, postTime, String.valueOf(postId));
+            trans.zadd("home:" + follower, postTime, String.valueOf(statusId));
             trans.zrange("home:" + follower, 0, -1);
-            trans.zremrangeByRank(
-                    "home:" + follower, 0, 0 - HOME_TIMELINE_SIZE - 1);
+            trans.zremrangeByRank("home:" + follower, 0, 0 - HOME_TIMELINE_SIZE - 1);
         }
         trans.exec();
 
         if (followers.size() >= POSTS_PER_PASS) {
             try {
                 Method method = getClass().getDeclaredMethod("syndicateStatus", Jedis.class, Long.TYPE, Long.TYPE, Long.TYPE, Double.TYPE);
-                executeLater("default", method, user, uid, postId, postTime, start);
+                executeLater("default", method, user, uid, statusId, postTime, start);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

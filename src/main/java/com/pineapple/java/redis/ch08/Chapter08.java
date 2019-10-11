@@ -2,6 +2,23 @@ package com.pineapple.java.redis.ch08;
 
 import redis.clients.jedis.Jedis;
 
+/**
+ * Zet:
+ *  profile:uid, post time, time, statusId
+ *  home:uid, post time, statusId
+ *  following:uid, time, uid
+ *  followers:uid, time, uid
+ *
+ *
+ * Hash:
+ *  status:statusId, map of status details
+ *  user:userId, user details map
+ *  users:, user name, user id
+ *
+ * String
+ *  lock, use as distributed lock
+ *
+ */
 public class Chapter08 {
 
     public static final void main(String[] args) throws InterruptedException {

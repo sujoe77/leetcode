@@ -6,6 +6,34 @@ import redis.clients.jedis.ZParams;
 
 import java.util.*;
 
+/**
+ * Zset
+ *  time:
+ *      key: article:articleId
+ *      value: post time
+ *  score:
+ *      key: article:articleId
+ *      value: score
+ *
+ * Hash
+ *  articleData
+ *      key: article:articleId
+ *      value: articleData
+ *
+ * String
+ *  article count
+ *      key:    article:
+ *      value: number of total articles
+ *
+ * Set:
+ *  voted:
+ *      key: voted:articleId
+ *      value: user
+ *  group:
+ *      key: group:groupName
+ *      value: articleId
+ *
+ */
 public class Chapter01 {
     private static final int ONE_WEEK_IN_SECONDS = 7 * 86400;
     private static final int VOTE_SCORE = 432;
@@ -33,7 +61,7 @@ public class Chapter01 {
             System.out.println("  " + entry.getKey() + ": " + entry.getValue());
         }
 
-        /*
+
         System.out.println();
 
         articleVote(conn, "other_user", "article:" + articleId);
@@ -51,7 +79,6 @@ public class Chapter01 {
         articles = getGroupArticles(conn, "new-group", 1);
         printArticles(articles);
         assert articles.size() >= 1;
-        */
     }
 
     public String postArticle(Jedis conn, String user, String title, String link) {
@@ -63,17 +90,22 @@ public class Chapter01 {
 
         long now = System.currentTimeMillis() / 1000;
         String article = "article:" + articleId;
+        HashMap<String, String> articleData = getArticleData(user, title, link, now);
+        conn.hmset(article, articleData);
+        conn.zadd("score:", now + VOTE_SCORE, article);
+        conn.zadd("time:", now, article);
+
+        return articleId;
+    }
+
+    private HashMap<String, String> getArticleData(String user, String title, String link, long now) {
         HashMap<String, String> articleData = new HashMap<String, String>();
         articleData.put("title", title);
         articleData.put("link", link);
         articleData.put("user", user);
         articleData.put("now", String.valueOf(now));
         articleData.put("votes", "1");
-        conn.hmset(article, articleData);
-        conn.zadd("score:", now + VOTE_SCORE, article);
-        conn.zadd("time:", now, article);
-
-        return articleId;
+        return articleData;
     }
 
     public void articleVote(Jedis conn, String user, String article) {

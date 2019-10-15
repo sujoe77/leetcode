@@ -42,20 +42,4 @@ public class Chapter08 {
 
         user.testRefillTimeline(conn);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

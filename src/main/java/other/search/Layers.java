@@ -7,9 +7,10 @@ public class Layers {
 
     public static Map<String, List<Integer>> search(String article) {
         int index = 0;
-        Map<String, List<Integer>> ret = new HashMap();
+        Map<String, List<Integer>> ret = new TreeMap<>();
         Node node = null;
         StringBuffer sb = new StringBuffer();
+        article = article + Node.END_NODE.getValue();
         for (char c : article.toCharArray()) {
             if (sb.length() == 0) {
                 if ((node = firstChars.get(c)) != null) {
@@ -38,6 +39,10 @@ public class Layers {
         ret.get(word).add(index);
     }
 
+    public static void addWord(Collection<String> words) {
+        addWord(words.toArray(new String[]{}));
+    }
+
     public static void addWord(String... words) {
         for (String word : words) {
             addWord(word);
@@ -50,11 +55,19 @@ public class Layers {
         Node node = null;
         for (char c : word.toCharArray()) {
             node = new Node(c);
-            if (i == 0 && firstChars.get(c) == null) {
-                firstChars.put(c, node);
+            if (i == 0) {
+                if (firstChars.get(c) == null) {
+                    firstChars.put(c, node);
+                } else {
+                    node = firstChars.get(c);
+                }
             }
             if (last != null) {
-                last.append(node);
+                Node node1 = last.getNextCharSet().get(c);
+                if(node1 == null)
+                    last.append(node);
+                else
+                    node = node1;
             }
             last = node;
             i++;
@@ -62,6 +75,5 @@ public class Layers {
         if (node != null) {
             node.append(Node.END_NODE);
         }
-        System.out.println(word);
     }
 }

@@ -16,6 +16,7 @@
 * CheckedXXXX
 
     return a collection with check type functions
+
     https://stackoverflow.com/questions/4662628/why-arent-collections-checkedmap-and-friends-used-more-commonly
 
 * SingletonXXX

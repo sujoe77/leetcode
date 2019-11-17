@@ -1,4 +1,4 @@
-package com.pineapple.java.hash.consistent.hash;
+package com.pineapple.java.algo.hash.consistent.hash;
 
 public class SimpleHashFunction implements HashFunction {
     // Consistent Hashing with Ring having 50 buckets.

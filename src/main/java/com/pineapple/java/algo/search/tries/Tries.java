@@ -1,8 +1,8 @@
-package other.search;
+package com.pineapple.java.algo.search.tries;
 
 import java.util.*;
 
-public class Layers {
+public class Tries {
     private static final Map<Character, Node> firstChars = new HashMap<>();
 
     public static Map<String, List<Integer>> search(String article) {

@@ -1,4 +1,4 @@
-package com.pineapple.java.hash.consistent.hash;
+package com.pineapple.java.algo.hash.consistent.hash;
 
 import static com.google.common.base.Preconditions.checkArgument;
 

@@ -1,4 +1,4 @@
-package com.pineapple.java.hash.consistent;
+package com.pineapple.java.algo.hash.consistent;
 
 import java.util.concurrent.ThreadLocalRandom;
 

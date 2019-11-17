@@ -1,4 +1,4 @@
-package com.pineapple.java.hash.consistent.hash;
+package com.pineapple.java.algo.hash.consistent.hash;
 
 public interface HashFunction {
     int getHashValue(int randomUserId);

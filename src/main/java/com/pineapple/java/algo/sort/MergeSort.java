@@ -1,4 +1,4 @@
-package com.pineapple.java.sort;
+package com.pineapple.java.algo.sort;
 
 import java.util.LinkedList;
 import java.util.List;

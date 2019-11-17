@@ -1,4 +1,4 @@
-package other;
+package com.pineapple.java.sdk;
 
 import org.testng.annotations.Test;
 

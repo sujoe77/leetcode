@@ -1,4 +1,4 @@
-package com.pineapple.java.hash.consistent;
+package com.pineapple.java.algo.hash.consistent;
 
 /**
  * from: https://gist.github.com/VarunVats9/5b785b7aed29eddfaf3436f16f607bcc

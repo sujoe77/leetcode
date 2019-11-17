@@ -1,4 +1,4 @@
-package other.search;
+package com.pineapple.java.algo.search.tries;
 
 import java.util.*;
 

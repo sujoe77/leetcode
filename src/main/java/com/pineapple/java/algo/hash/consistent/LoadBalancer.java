@@ -1,7 +1,7 @@
-package com.pineapple.java.hash.consistent;
+package com.pineapple.java.algo.hash.consistent;
 
-import com.pineapple.java.hash.consistent.hash.HashFunction;
-import com.pineapple.java.hash.consistent.hash.SimpleHashFunction;
+import com.pineapple.java.algo.hash.consistent.hash.HashFunction;
+import com.pineapple.java.algo.hash.consistent.hash.SimpleHashFunction;
 
 import java.util.SortedMap;
 import java.util.TreeMap;

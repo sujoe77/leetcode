@@ -1,6 +1,6 @@
-package com.pineapple.java.reflection.statics;
+package com.pineapple.java.reflection.proxy.statics;
 
-import com.pineapple.java.reflection.UserService;
+import com.pineapple.java.reflection.proxy.UserService;
 
 import java.util.Date;
 

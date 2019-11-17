@@ -1,7 +1,7 @@
-package com.pineapple.java.reflection.dynamic.jdk;
+package com.pineapple.java.reflection.proxy.dynamic.jdk;
 
-import com.pineapple.java.reflection.UserService;
-import com.pineapple.java.reflection.UserServiceImpl;
+import com.pineapple.java.reflection.proxy.UserService;
+import com.pineapple.java.reflection.proxy.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

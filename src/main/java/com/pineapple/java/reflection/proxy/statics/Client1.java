@@ -1,7 +1,7 @@
-package com.pineapple.java.reflection.statics;
+package com.pineapple.java.reflection.proxy.statics;
 
-import com.pineapple.java.reflection.UserService;
-import com.pineapple.java.reflection.UserServiceImpl;
+import com.pineapple.java.reflection.proxy.UserService;
+import com.pineapple.java.reflection.proxy.UserServiceImpl;
 
 public class Client1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.pineapple.java.reflection;
+package com.pineapple.java.reflection.proxy;
 
 public class UserServiceImpl implements UserService {
     @Override

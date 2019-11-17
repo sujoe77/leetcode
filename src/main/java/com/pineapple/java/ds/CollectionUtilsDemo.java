@@ -5,6 +5,6 @@ import org.testng.annotations.Test;
 public class CollectionUtilsDemo {
     @Test
     public void test() {
-
+//        CollectionUtils.
     }
 }

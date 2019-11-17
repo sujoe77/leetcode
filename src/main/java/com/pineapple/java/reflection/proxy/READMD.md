@@ -1,0 +1,1 @@
+This verified the static (java interface) and dynamic proxy (cglib and jdk)

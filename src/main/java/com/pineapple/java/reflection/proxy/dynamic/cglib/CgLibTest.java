@@ -1,4 +1,4 @@
-package com.pineapple.java.reflection.dynamic.cglib;
+package com.pineapple.java.reflection.proxy.dynamic.cglib;
 
 import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;

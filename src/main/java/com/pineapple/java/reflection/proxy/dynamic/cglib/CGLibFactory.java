@@ -1,6 +1,6 @@
-package com.pineapple.java.reflection.dynamic.cglib;
+package com.pineapple.java.reflection.proxy.dynamic.cglib;
 
-import com.pineapple.java.reflection.UserService;
+import com.pineapple.java.reflection.proxy.UserService;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

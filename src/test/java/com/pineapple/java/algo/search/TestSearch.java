@@ -1,5 +1,7 @@
-package other.search;
+package com.pineapple.java.algo.search;
 
+import com.pineapple.java.algo.search.tries.Tries;
+import com.pineapple.java.algo.search.tries.Words;
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.Test;
 
@@ -13,20 +15,20 @@ import java.util.Set;
 public class TestSearch {
     @Test
     public void testSearch() throws IOException {
-//        Layers.addWord("hello");
-//        Layers.addWord("hehe");
-//        Layers.addWord("am");
-//        Layers.addWord("and");
-//        Layers.addWord("I");
-//        Layers.addWord("The", "could", "to", "book", "all", "that", "soul", "history", "action", "Anna", "Petersburg");
+//        Tries.addWord("hello");
+//        Tries.addWord("hehe");
+//        Tries.addWord("am");
+//        Tries.addWord("and");
+//        Tries.addWord("I");
+//        Tries.addWord("The", "could", "to", "book", "all", "that", "soul", "history", "action", "Anna", "Petersburg");
 //
-//        Layers.addWord("book");
+//        Tries.addWord("book");
         String article = getArticle();
         Set<String> words = Words.getWords(article);
-        Layers.addWord(words);
+        Tries.addWord(words);
 //        testWords(words);
         long start = System.currentTimeMillis();
-        Map<String, List<Integer>> ret = Layers.search(article);
+        Map<String, List<Integer>> ret = Tries.search(article);
         long end = System.currentTimeMillis();
         System.out.println("words size: " + words.size());
         System.out.println("entry size: " + ret.size());
@@ -46,7 +48,7 @@ public class TestSearch {
 
     private void testWords(Set<String> words) {
         for(String word : words){
-            Set<String> keys = Layers.search(word).keySet();
+            Set<String> keys = Tries.search(word).keySet();
             if(!keys.contains(word)){
                 System.out.println(word + " not found!");
             }

@@ -1,4 +1,4 @@
-package com.pineapple.java.reflection.dynamic.jdk;
+package com.pineapple.java.reflection.proxy.dynamic.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

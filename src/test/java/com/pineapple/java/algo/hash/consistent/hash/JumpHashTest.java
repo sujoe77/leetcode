@@ -1,8 +1,6 @@
-package com.pineapple.java.hash.consistent.hash;
+package com.pineapple.java.algo.hash.consistent.hash;
 
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class JumpHashTest {
 

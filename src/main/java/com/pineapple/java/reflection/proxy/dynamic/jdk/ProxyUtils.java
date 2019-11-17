@@ -1,4 +1,4 @@
-package com.pineapple.java.reflection.dynamic.jdk;
+package com.pineapple.java.reflection.proxy.dynamic.jdk;
 
 import sun.misc.ProxyGenerator;
 

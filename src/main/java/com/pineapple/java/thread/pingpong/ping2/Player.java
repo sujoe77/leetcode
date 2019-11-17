@@ -1,4 +1,4 @@
-package com.pineapple.java.thread.ping2;
+package com.pineapple.java.thread.pingpong.ping2;
 
 public class Player implements Runnable {
     private final String content;

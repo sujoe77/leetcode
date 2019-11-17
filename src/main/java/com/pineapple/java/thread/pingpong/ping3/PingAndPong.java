@@ -1,4 +1,4 @@
-package com.pineapple.java.thread.ping3;
+package com.pineapple.java.thread.pingpong.ping3;
 
 import java.util.concurrent.LinkedBlockingDeque;
 

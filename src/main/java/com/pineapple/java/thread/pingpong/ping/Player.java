@@ -1,11 +1,9 @@
-package com.pineapple.java.thread.ping;
+package com.pineapple.java.thread.pingpong.ping;
 
 public class Player implements Runnable {
     private static final int MAX_COUNT = 10;
     private final String sound;
     private final boolean turn;
-    private String lock = "";
-    private Player partner;
 
 
     public Player(String sound, boolean turn) {
@@ -13,29 +11,20 @@ public class Player implements Runnable {
         this.turn = turn;
     }
 
-    public Player setPartner(Player partner) {
-        this.partner = partner;
-        return this;
-    }
-
-    public String getLock() {
-        return lock;
-    }
-
     @Override
     public void run() {
         for (int i = 0; i < MAX_COUNT; i++) {
-            synchronized (lock) {
-                if (PingAndPong.turn != this.turn) {
+            synchronized (Player.class) {
+                while (PingAndPong.turn != turn) {
                     try {
-                        lock.wait();
+                        Player.class.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
                 System.out.println(sound);
-                PingAndPong.turn = !this.turn;
-                partner.getLock().notifyAll();
+                PingAndPong.turn = !turn;
+                Player.class.notifyAll();
             }
         }
     }

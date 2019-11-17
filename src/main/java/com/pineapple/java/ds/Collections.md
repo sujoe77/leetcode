@@ -42,3 +42,60 @@
 * Set operation
 
     disjoint
+
+## CollectionUtils
+
+* boolean
+
+    isSubCollection / isProperSubCollection / isEqualCollection / exists / ifFull
+
+* addAll / addIgnoreNull
+
+* collate
+
+    merge sorted collections
+
+* collect / transform
+
+    Transforms all elements from input collection with the given transformer and adds them to the output collection
+    
+* containsAll / containsAny / countMatches
+
+* union / intersection / disjunction / subtract
+
+    disjunction
+
+    Returns a Collection containing the exclusive disjunction (symmetric difference) of the given Iterables.
+
+* emptyCollection / emptyIfNull
+
+* extractSingleton
+
+* filter / filterInverse / select / selectRejected 
+
+* get*
+
+* getCardinalityMap
+
+* Collection operation
+
+    intersection / union / retainAll / removeAll / containsAll
+
+* empty
+
+    isNotEmpty / isEmpty / EMPTY_COLLECTION / emptyIfNull / sizeIsEmpty 
+
+* forAll
+    
+    forAll / forAllButLastDo
+    
+* Collection as result 
+
+    synchronizedCollection / unmodifiableCollection / predicatedCollection / transformingCollection
+    
+* size / maxSize
+
+* find
+
+* reverseArray / permutations
+

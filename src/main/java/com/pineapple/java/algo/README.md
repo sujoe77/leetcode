@@ -9,6 +9,10 @@ see:
 
 https://juejin.im/post/5c09c6dfe51d453428653244
 
+![alt text][image]
+
+[image]: https://ask.qcloudimg.com/http-save/yehe-2662963/5zmt16micn.png?imageView2/2/w/1620 ""
+
 * Bubble
 
 -------------------------------------

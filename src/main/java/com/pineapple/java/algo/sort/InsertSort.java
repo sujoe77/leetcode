@@ -12,12 +12,13 @@ public class InsertSort {
         for (int i = 1; i < numbers.size(); i++) {
             sort(numbers, i);
         }
-        for(int i=0;i<numbers.size();i++){
+
+        for (int i = 0; i < numbers.size(); i++) {
             System.out.println(numbers.get(i));
         }
     }
 
-    private static void sort(List<Integer> numbers, int index) {
+    public static void sort(List<Integer> numbers, int index) {
         int i = index;
         while (i > 0 && numbers.get(i - 1) > numbers.get(i)) {
             int temp = numbers.get(i);

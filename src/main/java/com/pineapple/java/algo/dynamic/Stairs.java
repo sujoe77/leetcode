@@ -1,4 +1,4 @@
-package com.pineapple.java.algo;
+package com.pineapple.java.algo.dynamic;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -15,10 +15,6 @@ public class ConcurrentLRUCache<A, V> {
 
     private final Function<A, V> function;
 
-//    private final Function<A, V> DEFAULT_FUNCTION = a -> {
-//        throw new NotImplementedException();
-//    };
-
     public ConcurrentLRUCache(Function<A, V> computable) {
         this.function = computable;
     }

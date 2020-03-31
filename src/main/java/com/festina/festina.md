@@ -1,24 +1,5 @@
 # Implementation of a cache
 
-## Goals
-
-Functional requirement
-
-- put and get with key
-- multiple data structures
-
-Nonfunctional
-
-- Availability
-- Consistency
-  - transaction
-  - replication
-- Performance
-  - throughput
-  - latency
-- Scalability
-- Resilience
-
 ## 1. A simple LRUCache
 
 We have a simple example which is a modified version of example online[1], the code at:
@@ -65,21 +46,21 @@ A multi-thread version from "Java Concurrency in Practice" (Ref.[2])
 
 ### 2.1 Improvement
 
-- thread safe collections, putIfAbsent
+- Thread safe collections, putIfAbsent
 - Future for async (smaller inconsistent window, timeout, cancellation)
-- single thread performance vs scalability
+- Scalability
 
 Limitations
 
-- no timeout (one of the problem of distributed system)
-- not scalable to multiple host
+- can be blocking, no timeout (one of the problem of distributed system)
+- not distributed (configuration service, partition, replication ...)
 
 ### 2.2 Implementation
 
 Thread safe
 
 - concurrent collections
-- visibility and atomicity
+  - visibility and atomicity
   - compare-and-swap, volatile, Atomic, ThreadLocal
 - Future
 - happens-before
@@ -89,7 +70,7 @@ Thread safe
 - Not synchronized
 - Synchronized
 
-  - vector, hashtable, Collections.synchronizedXxx(), etc
+  - Vector, HashTable, Collections.synchronizedXxx(), etc
   - synchronized on method
 
 - Concurrent (java.util.concurrent)
@@ -142,10 +123,6 @@ Consistent Hashing (Ref.[6])
 - multiple leader
 - leader less (dynamo style)
 
-## 3.3 Event based
-
-## 3.4 Use cases
-
 ## 3.5 problem and solutions
 
 - cache avalanche
@@ -182,6 +159,20 @@ Ref[3]
 - solution
   - optimistic locking
   - immutable, function programming, share nothing (confine to 1 thread, nonblocking and lock-free)
+
+## 5. Goals
+
+Nonfunctional
+
+- Availability
+- Consistency
+  - transaction
+  - replication
+- Performance
+  - throughput
+  - latency
+- Scalability
+- Resilience
 
 # Ref
 

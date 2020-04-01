@@ -14,7 +14,10 @@ this example illustrated a simple LRU cache implemented with:
 ### 1.1 Data structure
 
 - Deque
-- HashMap (buckets + linked List of Nodes)
+  - O(N) for search, O(1) for push
+- HashMap
+  - buckets + linked List of Nodes
+  - O(1) to O(N)
 
 see also
 
@@ -24,7 +27,8 @@ see also
 
 #### Reliability
 
-- no timeout, can block for ever
+- blocking, no timeout
+- not thread safe
 
 #### Performance
 
@@ -44,16 +48,19 @@ A multi-thread version from "Java Concurrency in Practice" (Ref.[2])
 
 [ConcurrentLRUCache.java](./ConcurrentLRUCache.java)
 
-### 2.1 Improvement
+### 2.1 Improvements & Limitations
+
+improvements
 
 - Thread safe collections, putIfAbsent
-- Future for async (smaller inconsistent window, timeout, cancellation)
+- Future for async (smaller inconsistency window, timeout, cancellation)
 - Scalability
 
 Limitations
 
 - can be blocking, no timeout (one of the problem of distributed system)
 - not distributed (configuration service, partition, replication ...)
+- still not non-blocking and lock-free
 
 ### 2.2 Implementation
 
@@ -67,8 +74,8 @@ Thread safe
 
 3 groups of Collections
 
-- Not synchronized
-- Synchronized
+- Not synchronized (HashMap)
+- Synchronized (HashTable)
 
   - Vector, HashTable, Collections.synchronizedXxx(), etc
   - synchronized on method
@@ -78,22 +85,30 @@ Thread safe
     - performance, scalability
     - lock striping (hashTable vs ConcurrentHashMap)
 
-Future
+Future usage
 
 - timeout
 - avoid busy waiting
-- life cycle management
+- task life cycle management
 
 Future implementation
 
     /** The underlying callable; nulled out after running */
     private Callable<V> callable;
+
     /** The result to return or exception to throw from get() */
     private Object outcome; // non-volatile, protected by state reads/writes
+
     /** The thread running the callable; CASed during run() */
     private volatile Thread runner;
+
     /** Treiber stack of waiting threads */
     private volatile WaitNode waiters;
+    //...
+
+    sun.misc.Unsafe
+        - compare and swap
+        - park & unpark
 
 # 3. Distributed cache
 
@@ -119,16 +134,19 @@ Consistent Hashing (Ref.[6])
 
 3 ways of replication (Ref. [5])
 
-- single leader
-- multiple leader
+- single leader (write though leader)
+- multiple leaders (multiple data centers)
 - leader less (dynamo style)
 
-## 3.5 problem and solutions
+## 3.5 problems and solutions
 
 - cache avalanche
-- penetration (default value, bloomfilter Ref[10])
-- concurrency (single thread)
-  - 7 models of concurrency
+- penetration
+  - default value
+  - bloomfilter Ref[10]
+- concurrency
+  - Redis use single thread, lock free, Serializability
+  - 7 models of concurrency (functional programming, Actor, golang channels ...)
 
 Ref[7]
 
@@ -147,7 +165,7 @@ Ref[3]
 # 4. Some problem we met in real
 
 - HashMap infinite loop -> concurrent hashmap
-- Idempotence (duplicated transfer caused by john in cpg) -> use one thread / unique id
+- Idempotence (duplicated transfer in cpg) -> use one thread / unique id
 - copyOnWrite -> make a copy
 - field with thread id -> avoid using threadid
 - ThreadLocal, atomic, volatile

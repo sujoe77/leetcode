@@ -14,12 +14,22 @@ public class HeapSort implements IArraySort {
 
         buildMaxHeap(arr, len);
 
+        printArray(arr);
+
         for (int i = len - 1; i > 0; i--) {
+            System.out.println("len is: " + len + " ----------");
             swap(arr, 0, i);
+            printArray(arr);
             len--;
             heapify(arr, 0, len);
         }
         return arr;
+    }
+
+    private void printArray(int[] arr) {
+        for (int i : arr)
+            System.out.print(i + ",");
+        System.out.println("");
     }
 
     private void buildMaxHeap(int[] arr, int len) {
@@ -43,6 +53,7 @@ public class HeapSort implements IArraySort {
 
         if (largest != i) {
             swap(arr, i, largest);
+            printArray(arr);
             heapify(arr, largest, len);
         }
     }

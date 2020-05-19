@@ -1,17 +1,10 @@
 package com.pineapple.java.algo.search;
 
+import com.pineapple.java.algo.ListNode;
+
 import java.util.PriorityQueue;
 
 public class MergeSortedList {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 
     public static void main(String[] args) {

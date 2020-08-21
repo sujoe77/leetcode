@@ -1,0 +1,54 @@
+[1] Donald D. Chamberlin, Morton M. Astrahan, Michael W. Blasgen, et al.: "A His‐tory and Evaluation of System R," Communications of the ACM, volume 24, number10, pages 632–646, October 1981. doi:10.1145/358769.358784
+[2] Jim N. Gray, Raymond A. Lorie, Gianfranco R. Putzolu, and Irving L. Traiger:"Granularity of Locks and Degrees of Consistency in a Shared Data Base," in Model‐ling in Data Base Management Systems: Proceedings of the IFIP Working Conferenceon Modelling in Data Base Management Systems, edited by G. M. Nijssen, pages 364–394, Elsevier/North Holland Publishing, 1976. Also in Readings in Database Systems,4th edition, edited by Joseph M. Hellerstein and Michael Stonebraker, MIT Press,2005. ISBN: 978-0-262-69314-1
+[3] Kapali P. Eswaran, Jim N. Gray, Raymond A. Lorie, and Irving L. Traiger: "TheNotions of Consistency and Predicate Locks in a Database System," Communicationsof the ACM, volume 19, number 11, pages 624–633, November 1976.
+[4] "ACID Transactions Are Incredibly Helpful," FoundationDB, LLC, 2013.
+[5] John D. Cook: "ACID Versus BASE for Database Transactions," johndcook.com,July 6, 2009.
+[6] Gavin Clarke: "NoSQL’s CAP Theorem Busters: We Don’t Drop ACID," theregis‐ter.co.uk, November 22, 2012.
+[7] Theo Härder and Andreas Reuter: "Principles of Transaction-Oriented DatabaseRecovery," ACM Computing Surveys, volume 15, number 4, pages 287–317, Decem‐ber 1983. doi:10.1145/289.291
+[8] Peter Bailis, Alan Fekete, Ali Ghodsi, et al.: "HAT, not CAP: Towards HighlyAvailable Transactions," at 14th USENIX Workshop on Hot Topics in Operating Sys‐tems (HotOS), May 2013.
+[9] Armando Fox, Steven D. Gribble, Yatin Chawathe, et al.: "Cluster-Based ScalableNetwork Services," at 16th ACM Symposium on Operating Systems Principles (SOSP),October 1997.
+[10] Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman: ConcurrencyControl and Recovery in Database Systems. Addison-Wesley, 1987. ISBN:978-0-201-10715-9, available online at research.microsoft.com.
+[11] Alan Fekete, Dimitrios Liarokapis, Elizabeth O’Neil, et al.: "Making SnapshotIsolation Serializable," ACM Transactions on Database Systems, volume 30, number2, pages 492–528, June 2005. doi:10.1145/1071610.1071615
+[12] Mai Zheng, Joseph Tucek, Feng Qin, and Mark Lillibridge: "Understanding theRobustness of SSDs Under Power Fault," at 11th USENIX Conference on File andStorage Technologies (FAST), February 2013.
+[13] Laurie Denness: "SSDs: A Gift and a Curse," laur.ie, June 2, 2015.
+[14] Adam Surak: "When Solid State Drives Are Not That Solid," blog.algolia.com,June 15, 2015.
+[15] Thanumalayan Sankaranarayana Pillai, Vijay Chidambaram, Ramnatthan Ala‐gappan, et al.: "All File Systems Are Not Created Equal: On the Complexity of Craft‐ing Crash-Consistent Applications," at 11th USENIX Symposium on OperatingSystems Design and Implementation (OSDI), October 2014.
+[16] Chris Siebenmann: "Unix’s File Durability Problem," utcc.utoronto.ca, April 14,2016.
+[17] Lakshmi N. Bairavasundaram, Garth R. Goodson, Bianca Schroeder, et al.: "AnAnalysis of Data Corruption in the Storage Stack," at 6th USENIX Conference on Fileand Storage Technologies (FAST), February 2008.
+[18] Bianca Schroeder, Raghav Lagisetty, and Arif Merchant: "Flash Reliability inProduction: The Expected and the Unexpected," at 14th USENIX Conference on Fileand Storage Technologies (FAST), February 2016.
+[19] Don Allison: "SSD Storage – Ignorance of Technology Is No Excuse," blog.kore‐logic.com, March 24, 2015.
+[20] Dave Scherer: "Those Are Not Transactions (Cassandra 2.0)," blog.founda‐tiondb.com, September 6, 2013.
+[21] Kyle Kingsbury: "Call Me Maybe: Cassandra," aphyr.com, September 24, 2013.
+[22] "ACID Support in Aerospike," Aerospike, Inc., June 2014.
+[23] Martin Kleppmann: "Hermitage: Testing the ‘I’ in ACID," martin.klepp‐mann.com, November 25, 2014.
+[24] Tristan D’Agosta: "BTC Stolen from Poloniex," bitcointalk.org, March 4, 2014.
+[25] bitcointhief2: "How I Stole Roughly 100 BTC from an Exchange and How ICould Have Stolen More!," reddit.com, February 2, 2014.
+[26] Sudhir Jorwekar, Alan Fekete, Krithi Ramamritham, and S. Sudarshan: "Auto‐mating the Detection of Snapshot Isolation Anomalies," at 33rd International Confer‐ence on Very Large Data Bases (VLDB), September 2007.
+[27] Michael Melanson: "Transactions: The Limits of Isolation," michaelmelan‐son.net, March 20, 2014.
+[28] Hal Berenson, Philip A. Bernstein, Jim N. Gray, et al.: "A Critique of ANSI SQLIsolation Levels," at ACM International Conference on Management of Data (SIG‐MOD), May 1995.
+[29] Atul Adya: "Weak Consistency: A Generalized Theory and Optimistic Imple‐mentations for Distributed Transactions," PhD Thesis, Massachusetts Institute ofTechnology, March 1999.
+[30] Peter Bailis, Aaron Davidson, Alan Fekete, et al.: "Highly Available Transactions:Virtues and Limitations (Extended Version)," at 40th International Conference onVery Large Data Bases (VLDB), September 2014.
+[31] Bruce Momjian: "MVCC Unmasked," momjian.us, July 2014.
+[32] Annamalai Gurusami: "Repeatable Read Isolation Level in InnoDB – How Con‐sistent Read View Works," blogs.oracle.com, January 15, 2013.
+[33] Nikita Prokopov: "Unofficial Guide to Datomic Internals," tonsky.me, May 6,2014.
+[34] Baron Schwartz: "Immutability, MVCC, and Garbage Collection," xaprb.com,December 28, 2013.
+[35] J. Chris Anderson, Jan Lehnardt, and Noah Slater: CouchDB: The DefinitiveGuide. O’Reilly Media, 2010. ISBN: 978-0-596-15589-6
+[36] Rikdeb Mukherjee: "Isolation in DB2 (Repeatable Read, Read Stability, CursorStability, Uncommitted Read) with Examples," mframes.blogspot.co.uk, July 4, 2013.
+[37] Steve Hilker: "Cursor Stability (CS) – IBM DB2 Community," toadworld.com,March 14, 2013.
+[38] Nate Wiger: "An Atomic Rant," nateware.com, February 18, 2010.
+[39] Joel Jacobson: "Riak 2.0: Data Types," blog.joeljacobson.com, March 23, 2014.
+[40] Michael J. Cahill, Uwe Röhm, and Alan Fekete: "Serializable Isolation for Snap‐shot Databases," at ACM International Conference on Management of Data (SIG‐MOD), June 2008. doi:10.1145/1376616.1376690
+[41] Dan R. K. Ports and Kevin Grittner: "Serializable Snapshot Isolation in Post‐greSQL," at 38th International Conference on Very Large Databases (VLDB), August2012.
+[42] Tony Andrews: "Enforcing Complex Constraints in Oracle," tonyandrews.blog‐spot.co.uk, October 15, 2004.
+[43] Douglas B. Terry, Marvin M. Theimer, Karin Petersen, et al.: "Managing UpdateConflicts in Bayou, a Weakly Connected Replicated Storage System," at 15th ACMSymposium on Operating Systems Principles (SOSP), December 1995. doi:10.1145/224056.224070
+[44] Gary Fredericks: "Postgres Serializability Bug," github.com, September 2015.
+[45] Michael Stonebraker, Samuel Madden, Daniel J. Abadi, et al.: "The End of anArchitectural Era (It’s Time for a Complete Rewrite)," at 33rd International Confer‐ence on Very Large Data Bases (VLDB), September 2007.
+[46] John Hugg: "H-Store/VoltDB Architecture vs. CEP Systems and Newer Stream‐ing Architectures," at Data @Scale Boston, November 2014.
+[47] Robert Kallman, Hideaki Kimura, Jonathan Natkins, et al.: "H-Store: A High-Performance, Distributed Main Memory Transaction Processing System," Proceed‐ings of the VLDB Endowment, volume 1, number 2, pages 1496–1499, August 2008.
+[48] Rich Hickey: "The Architecture of Datomic," infoq.com, November 2, 2012.
+[49] John Hugg: "Debunking Myths About the VoltDB In-Memory Database,"voltdb.com, May 12, 2014.
+[50] Joseph M. Hellerstein, Michael Stonebraker, and James Hamilton: "Architectureof a Database System," Foundations and Trends in Databases, volume 1, number 2,pages 141–259, November 2007. doi:10.1561/1900000002
+[51] Michael J. Cahill: "Serializable Isolation for Snapshot Databases," PhD Thesis,University of Sydney, July 2009.
+[52] D. Z. Badal: "Correctness of Concurrency Control and Implications in Dis‐tributed Databases," at 3rd International IEEE Computer Software and ApplicationsConference (COMPSAC), November 1979.
+[53] Rakesh Agrawal, Michael J. Carey, and Miron Livny: "Concurrency Control Per‐formance Modeling: Alternatives and Implications," ACM Transactions on DatabaseSystems (TODS), volume 12, number 4, pages 609–654, December 1987. doi:10.1145/32204.32220
+[54] Dave Rosenthal: "Databases at 14.4MHz," blog.foundationdb.com, December 10,2014.

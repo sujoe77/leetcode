@@ -1,0 +1,111 @@
+[1] Peter Bailis and Ali Ghodsi: "Eventual Consistency Today: Limitations, Exten‐sions, and Beyond," ACM Queue, volume 11, number 3, pages 55-63, March 2013.doi:10.1145/2460276.2462076
+[2] Prince Mahajan, Lorenzo Alvisi, and Mike Dahlin: "Consistency, Availability, andConvergence," University of Texas at Austin, Department of Computer Science, TechReport UTCS TR-11-22, May 2011.
+[3] Alex Scotti: "Adventures in Building Your Own Database," at All Your Base,November 2015.
+[4] Peter Bailis, Aaron Davidson, Alan Fekete, et al.: "Highly Available Transactions:Virtues and Limitations," at 40th International Conference on Very Large Data Bases(VLDB), September 2014. Extended version published as pre-print arXiv:1302.0309
+[cs.DB].
+[5] Paolo Viotti and Marko Vukolić: "Consistency in Non-Transactional DistributedStorage Systems," arXiv:1512.00168, 12 April 2016.
+[6] Maurice P. Herlihy and Jeannette M. Wing: "Linearizability: A Correctness Con‐dition for Concurrent Objects," ACM Transactions on Programming Languages andSystems (TOPLAS), volume 12, number 3, pages 463–492, July 1990. doi:10.1145/78969.78972
+[7] Leslie Lamport: "On interprocess communication," Distributed Computing, vol‐ume 1, number 2, pages 77–101, June 1986. doi:10.1007/BF01786228
+[8] David K. Gifford: "Information Storage in a Decentralized Computer System,"Xerox Palo Alto Research Centers, CSL-81-8, June 1981.
+[9] Martin Kleppmann: "Please Stop Calling Databases CP or AP," martin.klepp‐mann.com, May 11, 2015.
+[10] Kyle Kingsbury: "Call Me Maybe: MongoDB Stale Reads," aphyr.com, April 20,2015.
+[11] Kyle Kingsbury: "Computational Techniques in Knossos," aphyr.com, May 17,2014.
+[12] Peter Bailis: "Linearizability Versus Serializability," bailis.org, September 24,2014.
+[13] Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman: ConcurrencyControl and Recovery in Database Systems. Addison-Wesley, 1987. ISBN:978-0-201-10715-9, available online at research.microsoft.com.
+[14] Mike Burrows: "The Chubby Lock Service for Loosely-Coupled Distributed Sys‐tems," at 7th USENIX Symposium on Operating System Design and Implementation(OSDI), November 2006.
+[15] Flavio P. Junqueira and Benjamin Reed: ZooKeeper: Distributed Process Coordi‐nation. O’Reilly Media, 2013. ISBN: 978-1-449-36130-3
+[16] "etcd 2.0.12 Documentation," CoreOS, Inc., 2015.
+[17] "Apache Curator," Apache Software Foundation, curator.apache.org, 2015.
+[18] Morali Vallath: Oracle 10g RAC Grid, Services & Clustering. Elsevier DigitalPress, 2006. ISBN: 978-1-555-58321-7
+[19] Peter Bailis, Alan Fekete, Michael J Franklin, et al.: "Coordination-AvoidingDatabase Systems," Proceedings of the VLDB Endowment, volume 8, number 3, pages185–196, November 2014.
+[20] Kyle Kingsbury: "Call Me Maybe: etcd and Consul," aphyr.com, June 9, 2014.
+[21] Flavio P. Junqueira, Benjamin C. Reed, and Marco Serafini: "Zab: High-Performance Broadcast for Primary-Backup Systems," at 41st IEEE InternationalConference on Dependable Systems and Networks (DSN), June 2011. doi:10.1109/DSN.2011.5958223
+[22] Diego Ongaro and John K. Ousterhout: "In Search of an Understandable Con‐sensus Algorithm (Extended Version)," at USENIX Annual Technical Conference(ATC), June 2014.
+[23] Hagit Attiya, Amotz Bar-Noy, and Danny Dolev: "Sharing Memory Robustly inMessage-Passing Systems," Journal of the ACM, volume 42, number 1, pages 124–142, January 1995. doi:10.1145/200836.200869
+[24] Nancy Lynch and Alex Shvartsman: "Robust Emulation of Shared MemoryUsing Dynamic Quorum-Acknowledged Broadcasts," at 27th Annual InternationalSymposium on Fault-Tolerant Computing (FTCS), June 1997. doi:10.1109/FTCS.1997.614100
+[25] Christian Cachin, Rachid Guerraoui, and Luís Rodrigues: Introduction to Relia‐ble and Secure Distributed Programming, 2nd edition. Springer, 2011. ISBN:978-3-642-15259-7, doi:10.1007/978-3-642-15260-3
+[26] Sam Elliott, Mark Allen, and Martin Kleppmann: personal communication,thread on twitter.com, October 15, 2015.
+[27] Niklas Ekström, Mikhail Panchenko, and Jonathan Ellis: "Possible Issue withRead Repair?," email thread on cassandra-dev mailing list, October 2012.
+[28] Maurice P. Herlihy: "Wait-Free Synchronization," ACM Transactions on Pro‐gramming Languages and Systems (TOPLAS), volume 13, number 1, pages 124–149,January 1991. doi:10.1145/114005.102808
+[29] Armando Fox and Eric A. Brewer: "Harvest, Yield, and Scalable Tolerant Sys‐tems," at 7th Workshop on Hot Topics in Operating Systems (HotOS), March 1999.doi:10.1109/HOTOS.1999.798396
+[30] Seth Gilbert and Nancy Lynch: "Brewer’s Conjecture and the Feasibility of Con‐sistent, Available, Partition-Tolerant Web Services," ACM SIGACT News, volume 33,number 2, pages 51–59, June 2002. doi:10.1145/564585.564601
+[31] Seth Gilbert and Nancy Lynch: "Perspectives on the CAP Theorem," IEEE Com‐puter Magazine, volume 45, number 2, pages 30–36, February 2012. doi:10.1109/MC.2011.389
+[32] Eric A. Brewer: "CAP Twelve Years Later: How the ‘Rules’ Have Changed," IEEEComputer Magazine, volume 45, number 2, pages 23–29, February 2012. doi:10.1109/MC.2012.37
+[33] Susan B. Davidson, Hector Garcia-Molina, and Dale Skeen: "Consistency in Par‐titioned Networks," ACM Computing Surveys, volume 17, number 3, pages 341–370,September 1985. doi:10.1145/5505.5508
+[34] Paul R. Johnson and Robert H. Thomas: "RFC 677: The Maintenance of Dupli‐cate Databases," Network Working Group, January 27, 1975.
+[35] Bruce G. Lindsay, Patricia Griffiths Selinger, C. Galtieri, et al.: "Notes on Dis‐tributed Databases," IBM Research, Research Report RJ2571(33471), July 1979.
+[36] Michael J. Fischer and Alan Michael: "Sacrificing Serializability to Attain HighAvailability of Data in an Unreliable Network," at 1st ACM Symposium on Principlesof Database Systems (PODS), March 1982. doi:10.1145/588111.588124
+[37] Eric A. Brewer: "NoSQL: Past, Present, Future," at QCon San Francisco, Novem‐ber 2012.
+[38] Henry Robinson: "CAP Confusion: Problems with ‘Partition Tolerance,’"blog.cloudera.com, April 26, 2010.
+[39] Adrian Cockcroft: "Migrating to Microservices," at QCon London, March 2014.
+[40] Martin Kleppmann: "A Critique of the CAP Theorem," arXiv:1509.05393, Sep‐tember 17, 2015.
+[41] Nancy A. Lynch: "A Hundred Impossibility Proofs for Distributed Computing,"at 8th ACM Symposium on Principles of Distributed Computing (PODC), August1989. doi:10.1145/72981.72982
+[42] Hagit Attiya, Faith Ellen, and Adam Morrison: "Limitations of Highly-AvailableEventually-Consistent Data Stores," at ACM Symposium on Principles of DistributedComputing (PODC), July 2015. doi:10.1145/2767386.2767419
+[43] Peter Sewell, Susmit Sarkar, Scott Owens, et al.: "x86-TSO: A Rigorous and Usa‐ble Programmer’s Model for x86 Multiprocessors," Communications of the ACM,volume 53, number 7, pages 89–97, July 2010. doi:10.1145/1785414.1785443
+[44]MartinThompson:"Memorysympathy.blogspot.co.uk, July 24, 2011.Barriers/Fences,"mechanical-
+[45] Ulrich Drepper: "What Every Programmer Should Know About Memory,"akkadia.org, November 21, 2007.
+[46] Daniel J. Abadi: "Consistency Tradeoffs in Modern Distributed Database SystemDesign," IEEE Computer Magazine, volume 45, number 2, pages 37–42, February2012. doi:10.1109/MC.2012.33
+[47] Hagit Attiya and Jennifer L. Welch: "Sequential Consistency Versus Linearizabil‐ity," ACM Transactions on Computer Systems (TOCS), volume 12, number 2, pages91–122, May 1994. doi:10.1145/176575.176576
+[48] Mustaque Ahamad, Gil Neiger, James E. Burns, et al.: "Causal Memory: Defini‐tions, Implementation, and Programming," Distributed Computing, volume 9, num‐ber 1, pages 37–49, March 1995. doi:10.1007/BF01784241
+[49] Wyatt Lloyd, Michael J. Freedman, Michael Kaminsky, and David G. Andersen:"Stronger Semantics for Low-Latency Geo-Replicated Storage," at 10th USENIX Sym‐posium on Networked Systems Design and Implementation (NSDI), April 2013.
+[50] Marek Zawirski, Annette Bieniusa, Valter Balegas, et al.: "SwiftCloud: Fault-Tolerant Geo-Replication Integrated All the Way to the Client Machine," INRIAResearch Report 8347, August 2013.
+[51] Peter Bailis, Ali Ghodsi, Joseph M Hellerstein, and Ion Stoica: "Bolt-on CausalConsistency," at ACM International Conference on Management of Data (SIGMOD),June 2013.
+[52] Philippe Ajoux, Nathan Bronson, Sanjeev Kumar, et al.: "Challenges to AdoptingStronger Consistency at Scale," at 15th USENIX Workshop on Hot Topics in Operat‐ing Systems (HotOS), May 2015.
+[53] Peter Bailis: "Causality Is Expensive (and What to Do About It)," bailis.org, Feb‐ruary 5, 2014.
+[54] Ricardo Gonçalves, Paulo Sérgio Almeida, Carlos Baquero, and Victor Fonte:"Concise Server-Wide Causality Management for Eventually Consistent Data Stores,"at 15th IFIP International Conference on Distributed Applications and InteroperableSystems (DAIS), June 2015. doi:10.1007/978-3-319-19129-4_6
+[55] Rob Conery: "A Better ID Generator for PostgreSQL," rob.conery.io, May 29,2014.
+[56] Leslie Lamport: "Time, Clocks, and the Ordering of Events in a Distributed Sys‐tem," Communications of the ACM, volume 21, number 7, pages 558–565, July 1978.doi:10.1145/359545.359563
+[57] Xavier Défago, André Schiper, and Péter Urbán: "Total Order Broadcast andMulticast Algorithms: Taxonomy and Survey," ACM Computing Surveys, volume 36,number 4, pages 372–421, December 2004. doi:10.1145/1041680.1041682
+[58] Hagit Attiya and Jennifer Welch: Distributed Computing: Fundamentals, Simula‐tions and Advanced Topics, 2nd edition. John Wiley & Sons, 2004. ISBN:978-0-471-45324-6, doi:10.1002/0471478210
+[59] Mahesh Balakrishnan, Dahlia Malkhi, Vijayan Prabhakaran, et al.: "CORFU: AShared Log Design for Flash Clusters," at 9th USENIX Symposium on Networked Sys‐tems Design and Implementation (NSDI), April 2012.
+[60] Fred B. Schneider: "Implementing Fault-Tolerant Services Using the StateMachine Approach: A Tutorial," ACM Computing Surveys, volume 22, number 4,pages 299–319, December 1990.
+[61] Alexander Thomson, Thaddeus Diamond, Shu-Chun Weng, et al.: "Calvin: FastDistributed Transactions for Partitioned Database Systems," at ACM InternationalConference on Management of Data (SIGMOD), May 2012.
+[62] Mahesh Balakrishnan, Dahlia Malkhi, Ted Wobber, et al.: "Tango: DistributedData Structures over a Shared Log," at 24th ACM Symposium on Operating SystemsPrinciples (SOSP), November 2013. doi:10.1145/2517349.2522732
+[63] Robbert van Renesse and Fred B. Schneider: "Chain Replication for SupportingHigh Throughput and Availability," at 6th USENIX Symposium on Operating SystemDesign and Implementation (OSDI), December 2004.
+[64] Leslie Lamport: "How to Make a Multiprocessor Computer That Correctly Exe‐cutes Multiprocess Programs," IEEE Transactions on Computers, volume 28, number9, pages 690–691, September 1979. doi:10.1109/TC.1979.1675439
+[65] Enis Söztutar, Devaraj Das, and Carter Shanklin: "Apache HBase High Availabil‐ity at the Next Level," hortonworks.com, January 22, 2015.
+[66] Brian F Cooper, Raghu Ramakrishnan, Utkarsh Srivastava, et al.: "PNUTS:Yahoo!’s Hosted Data Serving Platform," at 34th International Conference on VeryLarge Data Bases (VLDB), August 2008. doi:10.14778/1454159.1454167
+[67] Tushar Deepak Chandra and Sam Toueg: "Unreliable Failure Detectors for Reli‐able Distributed Systems," Journal of the ACM, volume 43, number 2, pages 225–267,March 1996. doi:10.1145/226643.226647
+[68] Michael J. Fischer, Nancy Lynch, and Michael S. Paterson: "Impossibility of Dis‐tributed Consensus with One Faulty Process," Journal of the ACM, volume 32, num‐ber 2, pages 374–382, April 1985. doi:10.1145/3149.214121
+[69] Michael Ben-Or: "Another Advantage of Free Choice: Completely Asynchro‐nous Agreement Protocols," at 2nd ACM Symposium on Principles of DistributedComputing (PODC), August 1983. doi:10.1145/800221.806707
+[70] Jim N. Gray and Leslie Lamport: "Consensus on Transaction Commit," ACMTransactions on Database Systems (TODS), volume 31, number 1, pages 133–160,March 2006. doi:10.1145/1132863.1132867
+[71] Rachid Guerraoui: "Revisiting the Relationship Between Non-Blocking AtomicCommitment and Consensus," at 9th International Workshop on Distributed Algo‐rithms (WDAG), September 1995. doi:10.1007/BFb0022140
+[72] Thanumalayan Sankaranarayana Pillai, Vijay Chidambaram, Ramnatthan Ala‐gappan, et al.: "All File Systems Are Not Created Equal: On the Complexity of Craft‐ing Crash-Consistent Applications," at 11th USENIX Symposium on OperatingSystems Design and Implementation (OSDI), October 2014.
+[73] Jim Gray: "The Transaction Concept: Virtues and Limitations," at 7th Interna‐tional Conference on Very Large Data Bases (VLDB), September 1981.
+[74] Hector Garcia-Molina and Kenneth Salem: "Sagas," at ACM International Con‐ference on Management of Data (SIGMOD), May 1987. doi:10.1145/38713.38742
+[75] C. Mohan, Bruce G. Lindsay, and Ron Obermarck: "Transaction Management inthe R* Distributed Database Management System," ACM Transactions on DatabaseSystems, volume 11, number 4, pages 378–396, December 1986. doi:10.1145/7239.7266
+[76] "Distributed Transaction Processing: The XA Specification," X/Open CompanyLtd., Technical Standard XO/CAE/91/300, December 1991. ISBN: 978-1-872-63024-3
+[77] Mike Spille: "XA Exposed, Part II," jroller.com, April 3, 2004.
+[78] Ivan Silva Neto and Francisco Reverbel: "Lessons Learned from ImplementingWS-Coordination and WS-AtomicTransaction," at 7th IEEE/ACIS InternationalConference on Computer and Information Science (ICIS), May 2008. doi:10.1109/ICIS.2008.75
+[79] James E. Johnson, David E. Langworthy, Leslie Lamport, and Friedrich H. Vogt:"Formal Specification of a Web Services Protocol," at 1st International Workshop onWeb Services and Formal Methods (WS-FM), February 2004. doi:10.1016/j.entcs.2004.02.022
+[80] Dale Skeen: "Nonblocking Commit Protocols," at ACM International Conferenceon Management of Data (SIGMOD), April 1981. doi:10.1145/582318.582339
+[81] Gregor Hohpe: "Your Coffee Shop Doesn’t Use Two-Phase Commit," IEEE Soft‐ware, volume 22, number 2, pages 64–66, March 2005. doi:10.1109/MS.2005.52
+[82] Pat Helland: "Life Beyond Distributed Transactions: An Apostate’s Opinion," at3rd Biennial Conference on Innovative Data Systems Research (CIDR), January 2007.
+[83] Jonathan Oliver: "My Beef with MSDTC and Two-Phase Commits," blog.jona‐thanoliver.com, April 4, 2011.
+[84] Oren Eini (Ahende Rahien): "The Fallacy of Distributed Transactions,"ayende.com, July 17, 2014.
+[85] Clemens Vasters: "Transactions in Windows Azure (with Service Bus) – AnEmail Discussion," vasters.com, July 30, 2012.
+[86] "Understanding Transactionality in Azure," NServiceBus Documentation, Par‐ticular Software, 2015.
+[87] Randy Wigginton, Ryan Lowe, Marcos Albe, and Fernando Ipar: "DistributedTransactions in MySQL," at MySQL Conference and Expo, April 2013.
+[88] Mike Spille: "XA Exposed, Part I," jroller.com, April 3, 2004.
+[89] Ajmer Dhariwal: "Orphaned MSDTC Transactions (-2 spids)," eraofdata.com,December 12, 2008.
+[90] Paul Randal: "Real World Story of DBCC PAGE Saving the Day," sqlskills.com,June 19, 2013.
+[91] "in-doubt xact resolution Server Configuration Option," SQL Server 2016 docu‐mentation, Microsoft, Inc., 2016.
+[92] Cynthia Dwork, Nancy Lynch, and Larry Stockmeyer: "Consensus in the Pres‐ence of Partial Synchrony," Journal of the ACM, volume 35, number 2, pages 288–323, April 1988. doi:10.1145/42282.42283
+[93] Miguel Castro and Barbara H. Liskov: "Practical Byzantine Fault Tolerance andProactive Recovery," ACM Transactions on Computer Systems, volume 20, number 4,pages 396–461, November 2002. doi:10.1145/571637.571640
+[94] Brian M. Oki and Barbara H. Liskov: "Viewstamped Replication: A New PrimaryCopy Method to Support Highly-Available Distributed Systems," at 7th ACM Sympo‐sium on Principles of Distributed Computing (PODC), August 1988. doi:10.1145/62546.62549
+[95] Barbara H. Liskov and James Cowling: "Viewstamped Replication Revisited,"Massachusetts Institute of Technology, Tech Report MIT-CSAIL-TR-2012-021, July2012.
+[96] Leslie Lamport: "The Part-Time Parliament," ACM Transactions on ComputerSystems, volume 16, number 2, pages 133–169, May 1998. doi:10.1145/279227.279229
+[97] Leslie Lamport: "Paxos Made Simple," ACM SIGACT News, volume 32, number4, pages 51–58, December 2001.
+[98] Tushar Deepak Chandra, Robert Griesemer, and Joshua Redstone: "Paxos MadeLive – An Engineering Perspective," at 26th ACM Symposium on Principles of Dis‐tributed Computing (PODC), June 2007.
+[99] Robbert van Renesse: "Paxos Made Moderately Complex," cs.cornell.edu, March2011.
+[100] Diego Ongaro: "Consensus: Bridging Theory and Practice," PhD Thesis, Stan‐ford University, August 2014.
+[101] Heidi Howard, Malte Schwarzkopf, Anil Madhavapeddy, and Jon Crowcroft:"Raft Refloated: Do We Have Consensus?," ACM SIGOPS Operating Systems Review,volume 49, number 1, pages 12–21, January 2015. doi:10.1145/2723872.2723876
+[102] André Medeiros: "ZooKeeper’s Atomic Broadcast Protocol: Theory and Prac‐tice," Aalto University School of Science, March 20, 2012.
+[103] Robbert van Renesse, Nicolas Schiper, and Fred B. Schneider: "Vive La Différ‐ence: Paxos vs. Viewstamped Replication vs. Zab," IEEE Transactions on Dependableand Secure Computing, volume 12, number 4, pages 472–484, September 2014. doi:10.1109/TDSC.2014.2355848
+[104] Will Portnoy: "Lessons Learned from Implementing Paxos," blog.willport‐noy.com, June 14, 2012.
+[105] Heidi Howard, Dahlia Malkhi, and Alexander Spiegelman: "Flexible Paxos:Quorum Intersection Revisited," arXiv:1608.06696, August 24, 2016.
+[106] Heidi Howard and Jon Crowcroft: "Coracle: Evaluating Consensus at the Inter‐net Edge," at Annual Conference of the ACM Special Interest Group on Data Commu‐nication (SIGCOMM), August 2015. doi:10.1145/2829988.2790010
+[107] Kyle Kingsbury: "Call Me Maybe: Elasticsearch 1.5.0," aphyr.com, April 27,2015.
+[108] Ivan Kelly: "BookKeeper Tutorial," github.com, October 2014.
+[109] Camille Fournier: "Consensus Systems for the Skeptical Architect," at CraftConference, Budapest, Hungary, April 2015.
+[110] Kenneth P. Birman: "A History of the Virtual Synchrony Replication Model,"in Replication: Theory and Practice, Springer LNCS volume 5959, chapter 6, pages91–120, 2010. ISBN: 978-3-642-11293-5, doi:10.1007/978-3-642-11294-2_6

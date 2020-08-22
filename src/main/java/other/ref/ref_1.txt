@@ -1,7 +1,7 @@
 [1] Michael Stonebraker and Uğur Çetintemel: "‘One Size Fits All’: An Idea WhoseTime Has Come and Gone," at 21st International Conference on Data Engineering(ICDE), April 2005.
 [2] Walter L. Heimerdinger and Charles B. Weinstock: "A Conceptual Frameworkfor System Fault Tolerance," Technical Report CMU/SEI-92-TR-033, Software Engi‐neering Institute, Carnegie Mellon University, October 1992.
 [3] Ding Yuan, Yu Luo, Xin Zhuang, et al.: "Simple Testing Can Prevent Most Criti‐cal Failures: An Analysis of Production Failures in Distributed Data-Intensive Sys‐tems," at 11th USENIX Symposium on Operating Systems Design and Implementation(OSDI), October 2014.
-[4] Yury Izrailevsky and Ariel Tseitlin: "The Netflix Simian Army," techblog.net‐flix.com, July 19, 2011.
+[4] Yury Izrailevsky and Ariel Tseitlin: "The Netflix Simian Army," techblog.netflix.com, July 19, 2011.
 [5] Daniel Ford, François Labelle, Florentina I. Popovici, et al.: "Availability in Glob‐ally Distributed Storage Systems," at 9th USENIX Symposium on Operating SystemsDesign and Implementation (OSDI), October 2010.
 [6] Brian Beach: "Hard Drive Reliability Update – Sep 2014," backblaze.com, Septem‐ber 23, 2014.
 [7] Laurie Voss: "AWS: The Good, the Bad and the Ugly," blog.awe.sm, December 18,2012.
@@ -21,7 +21,7 @@
 [21] Tammy Everts: "The Real Cost of Slow Time vs Downtime," webperformanceto‐day.com, November 12, 2014.
 [22] Jake Brutlag: "Speed Matters for Google Web Search," googleresearch.blog‐spot.co.uk, June 22, 2009.
 [23] Tyler Treat: "Everything You Know About Latency Is Wrong," bravenew‐geek.com, December 12, 2015.
-[24] Jeffrey Dean and Luiz André Barroso: "The Tail at Scale," Communications of theACM, volume 56, number 2, pages 74–80, February 2013. doi:10.1145/2408776.2408794
+[24] Jeffrey Dean and Luiz André Barroso: "The Tail at Scale," Communications of the ACM, volume 56, number 2, pages 74–80, February 2013. doi:10.1145/2408776.2408794
 [25] Graham Cormode, Vladislav Shkapenyuk, Divesh Srivastava, and Bojian Xu:"Forward Decay: A Practical Time Decay Model for Streaming Systems," at 25thIEEE International Conference on Data Engineering (ICDE), March 2009.
 [26] Ted Dunning and Otmar Ertl: "Computing Extremely Accurate Quantiles Usingt-Digests," github.com, March 2014.
 [27] Gil Tene: "HdrHistogram," hdrhistogram.org.

@@ -39,7 +39,7 @@
 [39] Sam Elliott: "CRDTs: An UPDATE (or Maybe Just a PUT)," at RICON West,October 2013.
 [40] Russell Brown: "A Bluffers Guide to CRDTs in Riak," gist.github.com, October28, 2013.
 [41] Benjamin Farinier, Thomas Gazagnaire, and Anil Madhavapeddy: "MergeablePersistent Data Structures," at 26es Journées Francophones des Langages Applicatifs(JFLA), January 2015.
-[42] Chengzheng Sun and Clarence Ellis: "Operational Transformation in Real-TimeGroup Editors: Issues, Algorithms, and Achievements," at ACM Conference on Com‐puter Supported Cooperative Work (CSCW), November 1998.
+[42] Chengzheng Sun and Clarence Ellis: "Operational Transformation in Real-TimeGroup Editors: Issues, Algorithms, and Achievements," at ACM Conference on Computer Supported Cooperative Work (CSCW), November 1998.
 [43] Lars Hofhansl: "HBASE-7709: Infinite Loop Possible in Master/Master Replica‐tion," issues.apache.org, January 29, 2013.
 [44] David K. Gifford: "Weighted Voting for Replicated Data," at 7th ACM Sympo‐sium on Operating Systems Principles (SOSP), December 1979. doi:10.1145/800215.806583
 [45] Heidi Howard, Dahlia Malkhi, and Alexander Spiegelman: "Flexible Paxos: Quo‐rum Intersection Revisited," arXiv:1608.06696, August 24, 2016.

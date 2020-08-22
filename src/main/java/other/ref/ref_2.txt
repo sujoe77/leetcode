@@ -14,7 +14,7 @@
 [14] Stephen D. Bartlett: "IBM’s IMS—Myths, Realities, and Opportunities," TheClipper Group Navigator, TCG2013015LI, July 2013.
 [15] Sarah Mei: "Why You Should Never Use MongoDB," sarahmei.com, November11, 2013.
 [16] J. S. Knowles and D. M. R. Bell: "The CODASYL Model," in Databases—Roleand Structure: An Advanced Course, edited by P. M. Stocker, P. M. D. Gray, and M. P.Atkinson, pages 19–56, Cambridge University Press, 1984. ISBN: 978-0-521-25430-4
-[17] Charles W. Bachman: "The Programmer as Navigator," Communications of theACM, volume 16, number 11, pages 653–658, November 1973. doi:10.1145/355611.362534
+[17] Charles W. Bachman: "The Programmer as Navigator," Communications of the ACM, volume 16, number 11, pages 653–658, November 1973. doi:10.1145/355611.362534
 [18] Joseph M. Hellerstein, Michael Stonebraker, and James Hamilton: "Architectureof a Database System," Foundations and Trends in Databases, volume 1, number 2,pages 141–259, November 2007. doi:10.1561/1900000002
 [19] Sandeep Parikh and Kelly Stirman: "Schema Design for Time Series Data inMongoDB," blog.mongodb.org, October 30, 2013.
 [20] Martin Fowler: "Schemaless Data Structures," martinfowler.com, January 7,2013.

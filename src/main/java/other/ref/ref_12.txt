@@ -14,7 +14,7 @@
 [14] Jay Kreps: "Questioning the Lambda Architecture," oreilly.com, July 2, 2014.
 [15] Raul Castro Fernandez, Peter Pietzuch, Jay Kreps, et al.: "Liquid: Unifying Near‐line and Offline Big Data Integration," at 7th Biennial Conference on Innovative DataSystems Research (CIDR), January 2015.
 [16] Dennis M. Ritchie and Ken Thompson: "The UNIX Time-Sharing System,"Communications of the ACM, volume 17, number 7, pages 365–375, July 1974. doi:10.1145/361011.361061
-[17] Eric A. Brewer and Joseph M. Hellerstein: "CS262a: Advanced Topics in Com‐puter Systems," lecture notes, University of California, Berkeley, cs.berkeley.edu,August 2011.
+[17] Eric A. Brewer and Joseph M. Hellerstein: "CS262a: Advanced Topics in Computer Systems," lecture notes, University of California, Berkeley, cs.berkeley.edu,August 2011.
 [18] Michael Stonebraker: "The Case for Polystores," wp.sigmod.org, July 13, 2015.
 [19] Jennie Duggan, Aaron J. Elmore, Michael Stonebraker, et al.: "The BigDAWGPolystore System," ACM SIGMOD Record, volume 44, number 2, pages 11–16, June2015. doi:10.1145/2814710.2814713
 [20] Patrycja Dybka: "Foreign Data Wrappers for PostgreSQL," vertabelo.com, March24, 2015.
@@ -28,7 +28,7 @@
 [28] Peter Van Roy and Seif Haridi: Concepts, Techniques, and Models of ComputerProgramming. MIT Press, 2004. ISBN: 978-0-262-22069-9
 [29] "Juttle Documentation," juttle.github.io, 2016.
 [30] Evan Czaplicki and Stephen Chong: "Asynchronous Functional Reactive Pro‐gramming for GUIs," at 34th ACM SIGPLAN Conference on Programming LanguageDesign and Implementation (PLDI), June 2013. doi:10.1145/2491956.2462161
-[31] Engineer Bainomugisha, Andoni Lombide Carreton, Tom van Cutsem, StijnMostinckx, and Wolfgang de Meuter: "A Survey on Reactive Programming," ACMComputing Surveys, volume 45, number 4, pages 1–34, August 2013. doi:10.1145/2501654.2501666
+[31] Engineer Bainomugisha, Andoni Lombide Carreton, Tom van Cutsem, StijnMostinckx, and Wolfgang de Meuter: "A Survey on Reactive Programming," ACM Computing Surveys, volume 45, number 4, pages 1–34, August 2013. doi:10.1145/2501654.2501666
 [32] Peter Alvaro, Neil Conway, Joseph M. Hellerstein, and William R. Marczak:"Consistency Analysis in Bloom: A CALM and Collected Approach," at 5th BiennialConference on Innovative Data Systems Research (CIDR), January 2011.
 [33] Felienne Hermans: "Spreadsheets Are Code," at Code Mesh, November 2015.
 [34] Dan Bricklin and Bob Frankston: "VisiCalc: Information from Its Creators,"danbricklin.com.
@@ -78,7 +78,7 @@
 [78] François Chollet: "Software development is starting to involve important ethicalchoices," twitter.com, October 30, 2016.
 [79] Igor Perisic: "Making Hard Choices: The Quest for Ethics in Machine Learning,"engineering.linkedin.com, November 2016.
 [80] John Naughton: "Algorithm Writers Need a Code of Conduct," theguar‐dian.com, December 6, 2015.
-[81] Logan Kugler: "What Happens When Big Data Blunders?," Communications ofthe ACM, volume 59, number 6, pages 15–16, June 2016. doi:10.1145/2911975
+[81] Logan Kugler: "What Happens When Big Data Blunders?," Communications of the ACM, volume 59, number 6, pages 15–16, June 2016. doi:10.1145/2911975
 [82] Bill Davidow: "Welcome to Algorithmic Prison," theatlantic.com, February 20,2014.
 [83] Don Peck: "They’re Watching You at Work," theatlantic.com, December 2013.
 [84] Leigh Alexander: "Is an Algorithm Any Less Racist Than a Human?" theguar‐dian.com, August 3, 2016.

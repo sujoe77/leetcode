@@ -7,7 +7,7 @@
 [6] Maurice P. Herlihy and Jeannette M. Wing: "Linearizability: A Correctness Con‐dition for Concurrent Objects," ACM Transactions on Programming Languages andSystems (TOPLAS), volume 12, number 3, pages 463–492, July 1990. doi:10.1145/78969.78972
 [7] Leslie Lamport: "On interprocess communication," Distributed Computing, vol‐ume 1, number 2, pages 77–101, June 1986. doi:10.1007/BF01786228
 [8] David K. Gifford: "Information Storage in a Decentralized Computer System,"Xerox Palo Alto Research Centers, CSL-81-8, June 1981.
-[9] Martin Kleppmann: "Please Stop Calling Databases CP or AP," martin.klepp‐mann.com, May 11, 2015.
+[9] Martin Kleppmann: "Please Stop Calling Databases CP or AP," martin.kleppmann.com, May 11, 2015.
 [10] Kyle Kingsbury: "Call Me Maybe: MongoDB Stale Reads," aphyr.com, April 20,2015.
 [11] Kyle Kingsbury: "Computational Techniques in Knossos," aphyr.com, May 17,2014.
 [12] Peter Bailis: "Linearizability Versus Serializability," bailis.org, September 24,2014.
@@ -29,7 +29,7 @@
 [28] Maurice P. Herlihy: "Wait-Free Synchronization," ACM Transactions on Pro‐gramming Languages and Systems (TOPLAS), volume 13, number 1, pages 124–149,January 1991. doi:10.1145/114005.102808
 [29] Armando Fox and Eric A. Brewer: "Harvest, Yield, and Scalable Tolerant Sys‐tems," at 7th Workshop on Hot Topics in Operating Systems (HotOS), March 1999.doi:10.1109/HOTOS.1999.798396
 [30] Seth Gilbert and Nancy Lynch: "Brewer’s Conjecture and the Feasibility of Con‐sistent, Available, Partition-Tolerant Web Services," ACM SIGACT News, volume 33,number 2, pages 51–59, June 2002. doi:10.1145/564585.564601
-[31] Seth Gilbert and Nancy Lynch: "Perspectives on the CAP Theorem," IEEE Com‐puter Magazine, volume 45, number 2, pages 30–36, February 2012. doi:10.1109/MC.2011.389
+[31] Seth Gilbert and Nancy Lynch: "Perspectives on the CAP Theorem," IEEE Computer Magazine, volume 45, number 2, pages 30–36, February 2012. doi:10.1109/MC.2011.389
 [32] Eric A. Brewer: "CAP Twelve Years Later: How the ‘Rules’ Have Changed," IEEEComputer Magazine, volume 45, number 2, pages 23–29, February 2012. doi:10.1109/MC.2012.37
 [33] Susan B. Davidson, Hector Garcia-Molina, and Dale Skeen: "Consistency in Par‐titioned Networks," ACM Computing Surveys, volume 17, number 3, pages 341–370,September 1985. doi:10.1145/5505.5508
 [34] Paul R. Johnson and Robert H. Thomas: "RFC 677: The Maintenance of Dupli‐cate Databases," Network Working Group, January 27, 1975.
@@ -77,7 +77,7 @@
 [76] "Distributed Transaction Processing: The XA Specification," X/Open CompanyLtd., Technical Standard XO/CAE/91/300, December 1991. ISBN: 978-1-872-63024-3
 [77] Mike Spille: "XA Exposed, Part II," jroller.com, April 3, 2004.
 [78] Ivan Silva Neto and Francisco Reverbel: "Lessons Learned from ImplementingWS-Coordination and WS-AtomicTransaction," at 7th IEEE/ACIS InternationalConference on Computer and Information Science (ICIS), May 2008. doi:10.1109/ICIS.2008.75
-[79] James E. Johnson, David E. Langworthy, Leslie Lamport, and Friedrich H. Vogt:"Formal Specification of a Web Services Protocol," at 1st International Workshop onWeb Services and Formal Methods (WS-FM), February 2004. doi:10.1016/j.entcs.2004.02.022
+[79] James E. Johnson, David E. Langworthy, Leslie Lamport, and Friedrich H. Vogt:"Formal Specification of a Web Services Protocol," at 1st International Workshop onWeb Services and Formal Methods (WSFM), February 2004. doi:10.1016/j.entcs.2004.02.022
 [80] Dale Skeen: "Nonblocking Commit Protocols," at ACM International Conferenceon Management of Data (SIGMOD), April 1981. doi:10.1145/582318.582339
 [81] Gregor Hohpe: "Your Coffee Shop Doesn’t Use Two-Phase Commit," IEEE Soft‐ware, volume 22, number 2, pages 64–66, March 2005. doi:10.1109/MS.2005.52
 [82] Pat Helland: "Life Beyond Distributed Transactions: An Apostate’s Opinion," at3rd Biennial Conference on Innovative Data Systems Research (CIDR), January 2007.

@@ -4,7 +4,7 @@
 [4] Coda Hale: "You Can’t Sacrifice Partition Tolerance," codahale.com, October 7,2010.
 [5] Jeff Hodges: "Notes on Distributed Systems for Young Bloods," somethingsimi‐lar.com, January 14, 2013.
 [6] Antonio Regalado: "Who Coined ‘Cloud Computing’?," technologyreview.com,October 31, 2011.
-[7] Luiz André Barroso, Jimmy Clidaras, and Urs Hölzle: "The Datacenter as a Com‐puter: An Introduction to the Design of Warehouse-Scale Machines, Second Edi‐tion," Synthesis Lectures on Computer Architecture, volume 8, number 3, Morgan &Claypool Publishers, July 2013. doi:10.2200/S00516ED2V01Y201306CAC024, ISBN:978-1-627-05010-4
+[7] Luiz André Barroso, Jimmy Clidaras, and Urs Hölzle: "The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Second Edi‐tion," Synthesis Lectures on Computer Architecture, volume 8, number 3, Morgan &Claypool Publishers, July 2013. doi:10.2200/S00516ED2V01Y201306CAC024, ISBN:978-1-627-05010-4
 [8] David Fiala, Frank Mueller, Christian Engelmann, et al.: "Detection and Correc‐tion of Silent Data Corruption for Large-Scale High-Performance Computing," atInternational Conference for High Performance Computing, Networking, Storage andAnalysis (SC12), November 2012.
 [9] Arjun Singh, Joon Ong, Amit Agarwal, et al.: "Jupiter Rising: A Decade of ClosTopologies and Centralized Control in Google’s Datacenter Network," at AnnualConference of the ACM Special Interest Group on Data Communication (SIGCOMM),August 2015. doi:10.1145/2785956.2787508
 [10] Glenn K. Lockwood: "Hadoop’s Uncomfortable Fit in HPC," glennklock‐wood.blogspot.co.uk, May 16, 2014.
@@ -80,7 +80,7 @@
 [80] Leslie Lamport: "My Writings," research.microsoft.com, December 16, 2014. Thispage can be found by searching the web for the 23-character string obtained byremoving the hyphens from the string allla-mport-spubso-ntheweb .
 [81] John Rushby: "Bus Architectures for Safety-Critical Embedded Systems," at 1stInternational Workshop on Embedded Software (EMSOFT), October 2001.
 [82] Jake Edge: "ELC: SpaceX Lessons Learned," lwn.net, March 6, 2013.
-[83] Andrew Miller and Joseph J. LaViola, Jr.: "Anonymous Byzantine Consensusfrom Moderately-Hard Puzzles: A Model for Bitcoin," University of Central Florida,Technical Report CS-TR-14-01, April 2014.
+[83] Andrew Miller and Joseph J. LaViola Jr.: "Anonymous Byzantine Consensusfrom Moderately-Hard Puzzles: A Model for Bitcoin," University of Central Florida,Technical Report CS-TR-14-01, April 2014.
 [84] James Mickens: "The Saddest Moment," USENIX ;login: logout, May 2013.
 [85] Evan Gilman: "The Discovery of Apache ZooKeeper’s Poison Packet," pagerd‐uty.com, May 7, 2015.
 [86] Jonathan Stone and Craig Partridge: "When the CRC and TCP Checksum Disa‐gree," at ACM Conference on Applications, Technologies, Architectures, and ProtocolsforComputerCommunication(SIGCOMM),August2000.doi:10.1145/347059.347561

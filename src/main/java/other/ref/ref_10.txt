@@ -33,7 +33,7 @@
 [33] "Apache Crunch User Guide," Apache Software Foundation, crunch.apache.org.
 [34] Craig Chambers, Ashish Raniwala, Frances Perry, et al.: "FlumeJava: Easy, Effi‐cient Data-Parallel Pipelines," at 31st ACM SIGPLAN Conference on ProgrammingLanguageDesignandImplementation(PLDI),June2010.doi:10.1145/1806596.1806638
 [35] Jay Kreps: "Why Local State is a Fundamental Primitive in Stream Processing,"oreilly.com, July 31, 2014.
-[36] Martin Kleppmann: "Rethinking Caching in Web Apps," martin.klepp‐mann.com, October 1, 2012.
+[36] Martin Kleppmann: "Rethinking Caching in Web Apps," martin.kleppmann.com, October 1, 2012.
 [37] Mark Grover, Ted Malaska, Jonathan Seidman, and Gwen Shapira: HadoopApplication Architectures. O’Reilly Media, 2015. ISBN: 978-1-491-90004-8
 [38] Philippe Ajoux, Nathan Bronson, Sanjeev Kumar, et al.: "Challenges to AdoptingStronger Consistency at Scale," at 15th USENIX Workshop on Hot Topics in Operat‐ing Systems (HotOS), May 2015.
 [39] Sriranjan Manjunath: "Skewed Join," wiki.apache.org, 2009.
@@ -67,7 +67,7 @@
 [67] Michael Isard, Mihai Budiu, Yuan Yu, et al.: "Dryad: Distributed Data-ParallelPrograms from Sequential Building Blocks," at European Conference on ComputerSystems (EuroSys), March 2007. doi:10.1145/1272996.1273005
 [68] Daniel Warneke and Odej Kao: "Nephele: Efficient Parallel Data Processing inthe Cloud," at 2nd Workshop on Many-Task Computing on Grids and Supercomputers(MTAGS), November 2009. doi:10.1145/1646468.1646476
 [69] Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd: "ThePageRank Citation Ranking: Bringing Order to the Web," Stanford InfoLab Techni‐cal Report 422, 1999.
-[70] Leslie G. Valiant: "A Bridging Model for Parallel Computation," Communica‐tions of the ACM, volume 33, number 8, pages 103–111, August 1990. doi:10.1145/79173.79181
+[70] Leslie G. Valiant: "A Bridging Model for Parallel Computation," Communications of the ACM, volume 33, number 8, pages 103–111, August 1990. doi:10.1145/79173.79181
 [71] Stephan Ewen, Kostas Tzoumas, Moritz Kaufmann, and Volker Markl: "Spin‐ning Fast Iterative Data Flows," Proceedings of the VLDB Endowment, volume 5,number 11, pages 1268-1279, July 2012. doi:10.14778/2350229.2350245
 [72] Grzegorz Malewicz, Matthew H. Austern, Aart J. C. Bik, et al.: "Pregel: A Systemfor Large-Scale Graph Processing," at ACM International Conference on Managementof Data (SIGMOD), June 2010. doi:10.1145/1807167.1807184
 [73] Frank McSherry, Michael Isard, and Derek G. Murray: "Scalability! But at WhatCOST?," at 15th USENIX Workshop on Hot Topics in Operating Systems (HotOS),May 2015.

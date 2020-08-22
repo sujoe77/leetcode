@@ -20,12 +20,12 @@
 [20] Dave Scherer: "Those Are Not Transactions (Cassandra 2.0)," blog.founda‐tiondb.com, September 6, 2013.
 [21] Kyle Kingsbury: "Call Me Maybe: Cassandra," aphyr.com, September 24, 2013.
 [22] "ACID Support in Aerospike," Aerospike, Inc., June 2014.
-[23] Martin Kleppmann: "Hermitage: Testing the ‘I’ in ACID," martin.klepp‐mann.com, November 25, 2014.
+[23] Martin Kleppmann: "Hermitage: Testing the ‘I’ in ACID," martin.kleppmann.com, November 25, 2014.
 [24] Tristan D’Agosta: "BTC Stolen from Poloniex," bitcointalk.org, March 4, 2014.
 [25] bitcointhief2: "How I Stole Roughly 100 BTC from an Exchange and How ICould Have Stolen More!," reddit.com, February 2, 2014.
 [26] Sudhir Jorwekar, Alan Fekete, Krithi Ramamritham, and S. Sudarshan: "Auto‐mating the Detection of Snapshot Isolation Anomalies," at 33rd International Confer‐ence on Very Large Data Bases (VLDB), September 2007.
 [27] Michael Melanson: "Transactions: The Limits of Isolation," michaelmelan‐son.net, March 20, 2014.
-[28] Hal Berenson, Philip A. Bernstein, Jim N. Gray, et al.: "A Critique of ANSI SQLIsolation Levels," at ACM International Conference on Management of Data (SIG‐MOD), May 1995.
+[28] Hal Berenson, Philip A. Bernstein, Jim N. Gray, et al.: "A Critique of ANSI SQLIsolation Levels," at ACM International Conference on Management of Data (SIGMOD), May 1995.
 [29] Atul Adya: "Weak Consistency: A Generalized Theory and Optimistic Imple‐mentations for Distributed Transactions," PhD Thesis, Massachusetts Institute ofTechnology, March 1999.
 [30] Peter Bailis, Aaron Davidson, Alan Fekete, et al.: "Highly Available Transactions:Virtues and Limitations (Extended Version)," at 40th International Conference onVery Large Data Bases (VLDB), September 2014.
 [31] Bruce Momjian: "MVCC Unmasked," momjian.us, July 2014.
@@ -37,7 +37,7 @@
 [37] Steve Hilker: "Cursor Stability (CS) – IBM DB2 Community," toadworld.com,March 14, 2013.
 [38] Nate Wiger: "An Atomic Rant," nateware.com, February 18, 2010.
 [39] Joel Jacobson: "Riak 2.0: Data Types," blog.joeljacobson.com, March 23, 2014.
-[40] Michael J. Cahill, Uwe Röhm, and Alan Fekete: "Serializable Isolation for Snap‐shot Databases," at ACM International Conference on Management of Data (SIG‐MOD), June 2008. doi:10.1145/1376616.1376690
+[40] Michael J. Cahill, Uwe Röhm, and Alan Fekete: "Serializable Isolation for Snap‐shot Databases," at ACM International Conference on Management of Data (SIGMOD), June 2008. doi:10.1145/1376616.1376690
 [41] Dan R. K. Ports and Kevin Grittner: "Serializable Snapshot Isolation in Post‐greSQL," at 38th International Conference on Very Large Databases (VLDB), August2012.
 [42] Tony Andrews: "Enforcing Complex Constraints in Oracle," tonyandrews.blog‐spot.co.uk, October 15, 2004.
 [43] Douglas B. Terry, Marvin M. Theimer, Karin Petersen, et al.: "Managing UpdateConflicts in Bayou, a Weakly Connected Replicated Storage System," at 15th ACMSymposium on Operating Systems Principles (SOSP), December 1995. doi:10.1145/224056.224070
